@@ -1,14 +1,49 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js"></script>
 </head>
 <body>
-<script type="module" src="main.js"></script>
+<div class="main-container">
+    <div class="display">
+        <div>Całkowita ilość ciasteczek: <span id="bankValue">0</span></div>
+        <button class="main-cookie-button" id="mainCookieButton">Click me!</button>
+        <div>Ilość ciasteczek na sekundę: <span id="cookiesPerSecond">0</span></div>
+        <div>Ilość ciasteczek na click: <span id="cookiesPerClick">0</span></div>
+    </div>
+    <div class="upgrades">
+        <div class="upgrade">
+            <div>
+                <div>Upgrade 1</div>
+                <div>Ciasteczka per sekunda: <span id="upgrade1CookiesPerSecond">0</span></div>
+                <div>Poziom: <span id="upgrade1Level">0</span></div>
+            </div>
+            <button id="upgrade1Button">Upgrade</button>
+        </div>
+
+        <div class="upgrade">
+            <div>
+                <div>Upgrade 2</div>
+                <div>Ciasteczka per sekunda: <span id="upgrade2CookiesPerSecond">0</span></div>
+                <div>Poziom: <span id="upgrade2Level">0</span></div>
+            </div>
+            <button id="upgrade2Button">Upgrade</button>
+        </div>
+
+        <div class="upgrade">
+            <div>
+                <div>Upgrade 3</div>
+                <div>Ciasteczka per sekunda: <span id="upgrade3CookiesPerSecond">0</span></div>
+                <div>Poziom: <span id="upgrade3Level">0</span></div>
+            </div>
+            <button id="upgrade3Button">Upgrade</button>
+        </div>
+    </div>
+</div>
 </body>
 </html>
